@@ -58,7 +58,7 @@ if __name__ == '__main__':
     headers = {
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
     }
-    target_users = [{'user_name': 'up主姓名', 'target_user_id': 'up主id', 'pages_num': 10}]#一页一般20视频
+    target_users = [{'user_name': 'up主姓名', 'target_user_id': 'up主id', 'pages_num': 10}]#一页一般30视频
     for user in target_users:
         user_id = user['target_user_id']
         user_name = user['user_name']
